@@ -252,7 +252,7 @@ export const portfolioData = {
     {
       school: "Université Lille 1",
       degree: "Maîtrise Informatique",
-      year: "1984",
+      year: "1994",
       location: "Lille, France",
     },
   ],
