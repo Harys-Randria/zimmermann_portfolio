@@ -160,50 +160,94 @@ export const portfolioData = {
     },
   ],
   skillsByCategory: {
-    "Pilotage de Programmes": [
-      "Programmes multi-millions",
-      "Reprise en main de programmes",
-      "Planification macro",
-      "Gestion budgets et risques",
-      "Comités de suivi et arbitrage",
-    ],
-    "Management & Transformation": [
-      "Management de transition",
-      "Audit DSI",
-      "Conduite du changement",
-      "Montée en compétences",
-      "Coaching d'équipes",
-    ],
-    Méthodologies: [
-      "Cycle en V",
-      "Agile (Scrum, Kanban)",
-      "TOGAF",
-      "Lean IT",
-      "PPM & PMP",
-    ],
-    Technologies: [
-      "SalesForce",
-      "Oracle",
-      "SAP",
-      "NUXEO",
-      "Développement (Delphi, Angular)",
-    ],
-    "Contractualisation": [
-      "Appels d'offres",
-      "Analyse d'offres",
-      "Négociation de contrats",
-      "RFP",
-    ],
-    "Secteurs d'Expertise": [
-      "Retail (textile, bricolage)",
-      "Banque",
-      "Administration",
-      "ESN",
-      "Industrie",
-      "Assurance",
-      "Bailleurs sociaux",
-    ],
-  },
+  "Pilotage de Programmes": [
+    "Gestion des exigences & définition du périmètre",
+    "Estimation des charges (prévues, réalisées, RAF)",
+    "Gestion budgets, coûts et risques",
+    "Planification & communication",
+    "Lotissement et jalons",
+    "Compte d'exploitation & facturation",
+    "Comités de suivi et arbitrage",
+    "Reprise en main de programmes",
+  ],
+
+  "Management & Recrutement": [
+    "Management de transition",
+    "Fiche de poste & fiche de mission",
+    "Sélection, entretien & intégration",
+    "Assignation des tâches & suivi de mission",
+    "Évaluation annuelle",
+    "Team leader & motivation",
+    "Résolution de conflits",
+    "Management des fournisseurs (off/in/near shore)",
+    "Conduite du changement",
+    "Montée en compétences",
+  ],
+
+  "Instances & Gouvernance": [
+    "CODIR DSI",
+    "COPIL, COPRO, COSTRAT",
+    "Tasks forces & réunions de crise",
+    "Comité fournisseurs",
+    "Comité contrat (juridique)",
+    "Comité sécurité (RSSI)",
+  ],
+
+  "PMO": [
+    "Organisation IT & reporting",
+    "KPI & tableaux de bord",
+    "Assistance à la direction de programme",
+    "Recadrage de prestation/projet",
+    "PAQ, PMP",
+    "Audit DSI",
+  ],
+
+  "Coaching": [
+    "Coaching de chefs de projet",
+    "Coaching de business développeurs",
+    "Coaching d'analystes",
+    "Coaching d'équipes",
+  ],
+
+  "Méthodologies": [
+    "Cycle en V (expert)",
+    "Agile : Scrum, Kanban",
+    "Lean IT",
+    "ITIL",
+    "Merise, UML, IFPUG",
+    "Assurance qualité",
+    "Visual management",
+    "TOGAF",
+    "PPM & PMP",
+  ],
+
+  "Contractualisation": [
+    "Sélection & contractualisation fournisseurs",
+    "SLA, OLA",
+    "Appels d'offres & RFP",
+    "Analyse d'offres",
+    "Négociation de contrats",
+    "Management des ressources (CDS, experts)",
+  ],
+
+  "Technologies": [
+    "SalesForce",
+    "Oracle",
+    "SAP",
+    "NUXEO",
+    "Développement (Delphi, Angular)",
+  ],
+
+  "Secteurs d'Expertise": [
+    "Retail (textile, bricolage)",
+    "Banque",
+    "Administration",
+    "ESN",
+    "Industrie",
+    "Assurance",
+    "Bailleurs sociaux",
+  ],
+},
   education: [
     {
       school: "Université Lille 1",

@@ -61,7 +61,7 @@ export function About() {
               <div className="space-y-4">
                 {[
                   { label: 'Expertise', value: '32 ans' },
-                  { label: 'Projets', value: '100+' },
+                  { label: 'Projets', value: '30+' },
                   { label: 'Clients', value: '50+' },
                   { label: 'Secteurs', value: '10+' },
                 ].map((stat, i) => (

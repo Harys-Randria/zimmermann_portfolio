@@ -38,15 +38,15 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#experience" className="text-foreground/70 hover:text-secondary transition-colors flex items-center gap-1 group">
-                  <span className="w-0 h-0.5 bg-secondary group-hover:w-3 transition-all" />
-                  Expérience
-                </Link>
-              </li>
-              <li>
                 <Link href="#skills" className="text-foreground/70 hover:text-secondary transition-colors flex items-center gap-1 group">
                   <span className="w-0 h-0.5 bg-secondary group-hover:w-3 transition-all" />
                   Compétences
+                </Link>
+              </li>
+              <li>
+                <Link href="#experience" className="text-foreground/70 hover:text-secondary transition-colors flex items-center gap-1 group">
+                  <span className="w-0 h-0.5 bg-secondary group-hover:w-3 transition-all" />
+                  Expérience
                 </Link>
               </li>
               <li>

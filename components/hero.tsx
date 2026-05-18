@@ -80,7 +80,7 @@ export function Hero() {
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
               {[
                 { value: '32+', label: 'Ans d\'expérience', color: 'from-primary to-secondary' },
-                { value: '100+', label: 'Projets complétés', color: 'from-secondary to-highlight' },
+                { value: '30+', label: 'Projets complétés', color: 'from-secondary to-highlight' },
                 { value: '50+', label: 'Clients satisfaits', color: 'from-highlight to-primary' },
               ].map((stat, idx) => (
                 <div key={idx} className="space-y-2">
@@ -117,15 +117,6 @@ export function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
               </div>
 
-              {/* Badge flottant */}
-              <motion.div
-                className="absolute -bottom-4 -right-4 bg-card/90 backdrop-blur-md border border-secondary/50 rounded-xl p-4 shadow-xl"
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-              >
-                <p className="text-xs font-semibold text-secondary/80 mb-1">Certifié</p>
-                <p className="text-sm font-bold text-foreground">Prince2 • ITIL • ACP</p>
-              </motion.div>
             </div>
           </motion.div>
         </div>
